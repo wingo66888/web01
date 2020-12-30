@@ -12,8 +12,12 @@
 margin: 150px auto 0;
 padding: 250px 70px 50px;
 box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+transition:0.5s;
 }
 
+#card:hover{
+    transform:scale(1.2);
+}
 #content {
     background-color: rgba(0, 0, 0, 0.5);
     color: gold;
@@ -36,11 +40,15 @@ li {
     margin-bottom: 8px;
 }
 
-footer {
-    text-align: center;
-    font-size: 100px;
-    letter-spacing: 150px;
-    padding-left: 150px;
-    color: rgba(0, 0, 0, 0.05);
-    margin-top: 50px;
+
+footer{
+      font-size: 72;
+      text-align: center;
+      letter-spacing: 80px;
+      padding-left:80px ;
+      margin-top: 50px;
+      color: rgba(0,0,0,0.15);
+}
+body{
+    background: #f5f5f5;
 }
