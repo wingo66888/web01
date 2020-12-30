@@ -42,7 +42,7 @@ li {
 
 
 footer{
-      font-size: 72;
+      font-size: 72px;
       text-align: center;
       letter-spacing: 80px;
       padding-left:80px ;
@@ -51,4 +51,5 @@ footer{
 }
 body{
     background: #f5f5f5;
+    color:gold;
 }
